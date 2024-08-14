@@ -1,0 +1,45 @@
+{
+  "name": "svg2sprite",
+  "version": "1.0.0",
+  "description": "SVG Files to Sprite",
+  "main": "dist/util.js",
+  "bin": {
+    "svg2ts": "dist/index.js"
+  },
+  "scripts": {
+    "start": "tsc --watch",
+    "prebuild": "rm -rf dist",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "cosmiconfig": "^9.0.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "jsdom": "^23.0.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/jsdom": "^21.1.6",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "svgo": "^3.1.0"
+  },
+  "keywords": [
+    "svg",
+    "to",
+    "sprite",
+    "svg2sprite",
+    "svg",
+    "to",
+    "sprite.svg",
+    "svg2sprite.svg"
+  ],
+  "author": "emreyartas@gmail.com",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "types": "./dist/util.d.ts"
+}
