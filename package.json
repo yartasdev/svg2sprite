@@ -1,7 +1,7 @@
 {
-  "name": "svg2sprite",
+  "name": "@yartasdev/svg2sprite",
   "version": "1.0.0",
-  "description": "SVG Files to Sprite",
+  "description": "All svg files in a folder are batch converted into a sprite.svg file.",
   "main": "dist/util.js",
   "bin": {
     "svg2ts": "dist/index.js"
@@ -26,6 +26,14 @@
   "peerDependencies": {
     "svgo": "^3.1.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yartasdev/svg2sprite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yartasdev/svg2sprite.git/issues"
+  },
+  "homepage": "https://github.com/yartasdev/svg2sprite.git#readme",
   "keywords": [
     "svg",
     "to",
