@@ -1,6 +1,6 @@
 {
   "name": "@yartasdev/svg2sprite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "All svg files in a folder are batch converted into a sprite.svg file.",
   "main": "dist/util.js",
   "bin": {
